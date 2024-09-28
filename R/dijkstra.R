@@ -15,12 +15,6 @@
 #'           \item{previous}{An integer vector where each element represents the previous node in the shortest path.}
 #'         }
 #' @export
-#'
-#' @examples
-#' \donttest{
-#'  dijkstra(wiki_graph, 1)
-#'  }
-#'
 dijkstra <- function(graph, init_node) {
   if (!is.data.frame(graph)) {
     stop("graph must be a data.frame")

@@ -18,5 +18,4 @@ euclidean <- function(a, b) {
     b <- remainder
   }
   return(a)
-  jjjjj
 }

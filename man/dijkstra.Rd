@@ -25,9 +25,3 @@ This function calculates the shortest paths
 from a starting node to all other nodes
 in a graph using Dijkstra's algorithm.
 }
-\examples{
-\donttest{
- dijkstra(wiki_graph, 1)
- }
-
-}

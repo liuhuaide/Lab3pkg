@@ -2,14 +2,14 @@ Package: Lab3pkg
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("Huaide", "Liu", , "jcakcino@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(person("Huaide", "liu", , "jcakcino@gmail.com", role = c("aut", "cre")),
+      person("wang", "liao", , "liaowang913@outlook.com", role = "aut"))
 Description: Euclidean Algorithm computes the greatest common divisor (GCD) of two 
     integers.Dijkstra's algorithm calculates the shortest pathsb from 
     a starting node to all other nodes in a graph.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
-Encoding: UTF-8
+Encoding: GPL-3
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
