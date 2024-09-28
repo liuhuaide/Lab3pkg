@@ -8,17 +8,17 @@ on:
 
 jobs:
   R-CMD-check:
-    runs-on: windows-latest  # 使用 Windows 操作系统
+    runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2  # 检出代码
+      - uses: actions/checkout@v2
       - name: Set up R
-        uses: r-lib/actions/setup-r@v1  # 设置 R 环境
+        uses: r-lib/actions/setup-r@v1
       - name: Install dependencies
         run: |
           install.packages('devtools')
-          devtools::install_deps(dependencies = TRUE)  # 安装依赖包
+          devtools::install_deps(dependencies = TRUE)
       - name: Check
         run: |
-          R CMD build .  # 构建 R 包
-          R CMD check *.tar.gz  # 检查包
+          R CMD build .
+          R CMD check *.tar.gz
