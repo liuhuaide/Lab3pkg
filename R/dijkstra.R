@@ -4,6 +4,7 @@
 #'     from a starting node to all other nodes
 #'     in a graph using Dijkstra's algorithm.
 #'
+#' @importFrom stats setNames
 #' @param graph A matrix or data frame representing the graph, where each row is an edge.
 #'        The first column should be the starting node, the second column the ending node,
 #'        and the third column the weight
@@ -14,6 +15,9 @@
 #'           \item{distances}{A numeric vector representing the shortest distances from the start node to all other nodes.}
 #'           \item{previous}{An integer vector where each element represents the previous node in the shortest path.}
 #'         }
+#' @references
+#' Dijkstra's algorithm. Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
+#' Graph (mathematics). Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Graph_(mathematics)}
 #' @export
 dijkstra <- function(graph, init_node) {
   if (!is.data.frame(graph)) {

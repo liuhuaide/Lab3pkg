@@ -7,6 +7,8 @@
 #' @param b An integer, the other number for which the GCD is to be computed
 #'
 #' @return An integer representing the greatest common divisor of \code{a} and \code{b}
+#' @references
+#' Euclidean algorithm. Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #' @export
 #'
 #' @examples euclidean(123612, 13892347912)
