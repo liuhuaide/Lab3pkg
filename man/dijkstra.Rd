@@ -25,3 +25,7 @@ This function calculates the shortest paths
 from a starting node to all other nodes
 in a graph using Dijkstra's algorithm.
 }
+\references{
+Dijkstra's algorithm. Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+Graph (mathematics). Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Graph_(mathematics)}
+}

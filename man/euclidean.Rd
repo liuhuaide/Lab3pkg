@@ -22,3 +22,6 @@ using the Euclidean algorithm
 euclidean(123612, 13892347912)
 
 }
+\references{
+Euclidean algorithm. Wikipedia. Available at: \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+}
