@@ -1,5 +1,5 @@
-#' @title Wiki Graph Dataset
-#' @description
+#' Wiki Graph Dataset
+#'
 #' This dataset represents a graph used for demonstrating Dijkstra's algorithm.
 #' It contains nodes (vertices) and edges (connections between nodes) with weights.
 #'
